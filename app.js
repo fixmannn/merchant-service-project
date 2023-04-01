@@ -11,7 +11,7 @@ const productRouter = require('./routes/products');
 // Merchant Router
 app.get('/merchants', merchantRouter.getMerchant);
 app.post('/merchants', merchantRouter.createMerchant);
-app.delete('/merchants/:id', merchantRouter.deleteMerchant);
+app.delete('/merchants/:id', authenticateUser, merchantRouter.deleteMerchant);
 
 // Product Router
 app.get('/products', authenticateUser, productRouter.getMerchantProducts);
