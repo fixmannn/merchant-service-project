@@ -11,11 +11,13 @@ This is a merchant service API that can manage user (merchant) accounts and prod
 
 This project is made by:
 
+<p float="left">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="50">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="50">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" width="50">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="50">
 <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="50">
+</p>
 
 ## Architecture Diagram
 
