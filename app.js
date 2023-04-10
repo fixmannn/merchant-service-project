@@ -4,10 +4,11 @@ app.use(express.json());
 
 
 // Routes
+const indexRouter = require('./routes/index');
 const merchantRouter = require('./routes/merchants');
 const productRouter = require('./routes/products');
 
-
+app.use('/', indexRouter);
 app.use('/merchants', merchantRouter);
 app.use('/products', productRouter);
 
