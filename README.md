@@ -78,7 +78,7 @@ cd merchant-service-project
 Install dependencies:
 
 ```
-npm init
+npm install
 ```
 
 Start the server:
